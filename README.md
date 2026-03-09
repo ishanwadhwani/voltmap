@@ -30,6 +30,7 @@ VoltMap is a React Native mobile application designed to help Electric Vehicle (
    npm install --legacy-peer-deps
    ```
 3. **Environment Variables:**
+    ```bash
       EXPO_PUBLIC_GOOGLE_API_KEY=your_google_maps_key
       EXPO_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
       EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
@@ -37,6 +38,7 @@ VoltMap is a React Native mobile application designed to help Electric Vehicle (
       EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
       EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
       EXPO_PUBLIC_FIREBASE_APP_ID=your_app_id
+   ```
 
 5. **Start the development server:**
    ```bash
