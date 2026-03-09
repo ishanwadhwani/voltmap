@@ -22,6 +22,31 @@ VoltMap is a React Native mobile application designed to help Electric Vehicle (
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/voltmap-ev.git](https://github.com/your-username/voltmap-ev.git)
+   git clone https://github.com/ishanwadhwani/voltmap.git
    cd voltmap-ev
    ```
+2. **Install dependencies:**
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+3. **Environment Variables:**
+      EXPO_PUBLIC_GOOGLE_API_KEY=your_google_maps_key
+      EXPO_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
+      EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+      EXPO_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+      EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+      EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+      EXPO_PUBLIC_FIREBASE_APP_ID=your_app_id
+
+5. **Start the development server:**
+   ```bash
+   npx expo start -c
+   ```
+
+
+**Building the APK**
+This project uses EAS to build standalone Android binaries. To generate an APK for local installation:
+   ```bash
+   eas build -p android --profile preview
+   ```
+
